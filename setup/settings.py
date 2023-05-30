@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'plus_games',
 ]
 
 MIDDLEWARE = [
@@ -113,6 +115,15 @@ TIME_ZONE = 'America/Sao_Paulo'
 USE_I18N = True
 
 USE_TZ = True
+
+
+# Data format
+
+USE_L10N = False
+
+DATE_INPUT_FORMATS = [
+    "%d.%m.%Y",
+]
 
 
 # Static files (CSS, JavaScript, Images)
